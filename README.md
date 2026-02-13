@@ -4,9 +4,9 @@ The [Gilded Rose Requirements](GildedRoseRequirements.md) file explains what the
 
 ## Setup
 
-Ensure python3 is installed and executable on the via `python3`.
+Ensure python3 is installed and executable on the path via `python3`.
 
 ## Execute text based tests
 
-`./start_texttest.sh`
+`./start_texttest.sh` or `./start_texttest_from_python.bat`
 
