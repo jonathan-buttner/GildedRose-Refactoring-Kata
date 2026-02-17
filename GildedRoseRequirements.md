@@ -1,4 +1,4 @@
-# Gilded Rose Requirements Specification
+# Requirements Specification
 
 We have a system in place that updates our inventory for us. Your task is to add the new feature to our system so that
 we can begin selling a new category of items.
@@ -24,11 +24,12 @@ we can begin selling a new category of items.
 
 ## New feature
 
-- __"Conjured"__ items degrade in `Quality` twice as fast as normal items
+- __"Conjured Mana Cake"__ items degrade in `Quality` twice as fast as normal items
 
 ## Instructions
 
-Make any changes to the `UpdateQuality` method and add any new code as long as everything
-still works correctly. However, do not alter the `Item` class or `Items` property 
-(you can make the `UpdateQuality` method and `Items` property static if you like, we'll cover
-for you).
+Make any changes and add any new code as long as everything still works correctly. There should be no changes to the
+[TexttestFixture](Java/src/test/java/com/gildedrose/TexttestFixture.java) file.
+
+The text [stdout.gr](texttests/ThirtyDays/stdout.gr) contains most of expected output. This file should only
+change when the `Conjured Mana Cake` item is implemented and the text related to the other items should not change.
